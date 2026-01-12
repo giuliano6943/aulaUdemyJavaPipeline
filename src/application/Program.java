@@ -7,7 +7,9 @@ import java.util.stream.Stream;
 
 public class Program {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
+        //Alterando para nova versão no git
+
+        List<Integer> list = Arrays.asList(2, 4, 5, 10, 7);
 
         //Criação do Stream relacionado a list, pegando todos os elementos da lista e multiplicando por 10.
         Stream<Integer> st1 = list.stream().map(x -> x * 10);
